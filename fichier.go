@@ -99,5 +99,4 @@ func UploadFile(fname string, r io.Reader) (string, string, error) {
 	}
 
 	return urlDL.String(), urlRM.String(), nil
-
 }
